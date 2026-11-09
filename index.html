@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="yVmpKDWF6M1UAur2NxdoeUus-ca5rGnGaE4Rs-OZgmA" />
+    <title>Web Kelas VI Necipat</title>
+    <link rel="icon" type="image/jpeg" href="Icon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="intro-active">
+    <!-- Sidebar -->
+
+    <nav class="sidebar hidden" id="sidebar">
+
+        <div class="logo">
+            <img src="Icon.png" alt="fotokelas">
+            <p>KELAS VI NECIPAT</p>
+        </div>
+
+        <a href="#home" class="nav-link">
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-home">
+
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+            </svg>
+
+            <span> Home</span>
+
+        </a>
+        <a href="#jadwal" class="nav-link">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-event">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2l0 -12" />
+                <path d="M16 3l0 4" />
+                <path d="M8 3l0 4" />
+                <path d="M4 11l16 0" />
+                <path d="M8 15h2v2h-2l0 -2" />
+            </svg>
+
+            <span> Jadwal</span>
+        </a>
+        <a href="#siswa" class="nav-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-users">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M5 7a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+            </svg>
+
+            <span> Siswa</span>
+        </a>
+        <a href="#tugas" class="nav-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-book">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                <path d="M3 6l0 13" />
+                <path d="M12 6l0 13" />
+                <path d="M21 6l0 13" />
+            </svg>
+
+            <span> Tugas</span>
+        </a>
+        <a href="#pengumuman" class="nav-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-speakerphone">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M18 8a3 3 0 0 1 0 6" />
+                <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
+                <path
+                    d="M12 8l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
+            </svg>
+
+            <span> Pengumuman</span>
+        </a>
+        <a href="#fun-games" class="nav-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-device-gamepad-2">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4" />
+                <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232" />
+                <path d="M8 9v2" />
+                <path d="M7 10h2" />
+                <path d="M14 10h2" />
+            </svg>
+
+            <span> Fun Game</span>
+        </a>
+
+        <button id="theme-toggle">🌙 Mode Gelap</button>
+
+        <!-- social links -->
+
+        <div class="link-sosial">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4l0 -10" />
+                <path d="M8.5 12a3.5 3.5 0 1 0 7 0a3.5 3.5 0 0 0 -7 0" />
+                <path d="M17 7v.01" />
+            </svg>
+            <a href="https://www.instagram.com/ranzsensei79/">Instagram Dev</a>
+        </div>
+
+        <div class="link-sosial">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-brand-tiktok">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917" />
+            </svg>
+            <a href="https://www.tiktok.com/@r4nz_voidking">Tiktok Dev</a>
+        </div>
+
+        <!-- waktu-dgital -->
+
+        <div class="jam-digital" id="jam-digital">00:00:00</div>
+        <div class="tanggal-digital" id="tanggal-digital">1 januari 1111</div>
+
+        
+    </nav>
+
+    <button id="sidebar-toggle">☰</button>
+
+
+    <!-- Konten Utama -->
+    
+
+    <section class="intro-screen" id="intro-screen" role="dialog" aria-modal="true" aria-labelledby="intro-title"
+        aria-describedby="intro-description">
+        <div class="intro-shell">
+            <header class="intro-topbar">
+                <div class="intro-brand">
+                    <img src="Icon.png" alt="icon doang sih9">
+                    <span>NECIPAT <span class="intro-brand-divider">/</span> CLASS VI</span>
+                </div>
+                <span class="intro-edition">OUR LITTLE UNIVERSE <span>•</span> 2026</span>
+            </header>
+
+            <div class="intro-main">
+                <div class="intro-copy">
+                    <p class="intro-eyebrow"><span></span> WELCOME TO OUR CLASS</p>
+                    <h1 id="intro-title">Ruang kecil,<br><span>cerita besar.</span></h1>
+                    <p class="intro-description" id="intro-description">
+                        Satu tempat buat kenal lebih dekat, berbagi cerita, dan menyimpan
+                        keseruan kelas VI Necipat.
+                    </p>
+                    <button class="intro-enter" id="intro-enter" type="button">
+                        <span>Masuk ke kelas</span><span class="intro-arrow" aria-hidden="true">↗</span>
+                    </button>
+                    <div class="intro-loader" id="intro-loader" hidden>
+                        <div class="intro-loader-label">
+                            <span id="intro-loading-text" aria-live="polite">Menyiapkan suasana kelas...</span>
+                            <span id="intro-progress-text">0%</span>
+                        </div>
+                        <div class="intro-progress-track" role="progressbar" aria-label="Loading simulasi"
+                            aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="intro-progress" tabindex="0">
+                            <span id="intro-progress-bar"></span>
+                        </div>
+                    </div>
+                    <p class="intro-note" id="intro-note">Tempat kita, cerita kita.</p>
+                </div>
+
+                <div class="intro-visual" aria-hidden="true">
+                    <div class="intro-orbit intro-orbit-outer"></div>
+                    <div class="intro-orbit intro-orbit-inner"></div>
+                    <span class="intro-spark intro-spark-one">✳</span>
+                    <span class="intro-spark intro-spark-two">✦</span>
+                    <span class="intro-visual-tag intro-visual-tag-top">EST. WITH FRIENDS</span>
+                    <div class="intro-planet">
+                        <img src="Icon.png" alt="">
+                    </div>
+                    <span class="intro-visual-tag intro-visual-tag-bottom">KELAS VI NECIPAT</span>
+                    <span class="intro-visual-dot"></span>
+                </div>
+            </div>
+
+            <footer class="intro-footer">
+                <span>BUILT WITH <span class="intro-heart">♥</span> BY OUR CLASS</span>
+                <span>SCROLL LESS, MAKE MEMORIES MORE</span>
+            </footer>
+        </div>
+    </section>
+
+    <main class="content" id="main-content" tabindex="-1">
+
+        <!-- HOME -->
+        <section id="home" class="home">
+            <h2>Selamat Datang!</h2>
+            <p>
+                Selamat datang di website kelas VI.
+                Di sini anda bisa melihat informasi siswa,
+                jadwal pelajaran, tugas, dan pengumuman kelas.
+            </p>
+
+            <!--coundown 1-->
+
+            <div class="countdown-widget">
+
+                <div class="countdown-title">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-tabler icons-tabler-outline icon-tabler-hourglass-high">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M6.5 7h11" />
+                        <path d="M6 20v-2a6 6 0 1 1 12 0v2a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1" />
+                        <path d="M6 4v2a6 6 0 1 0 12 0v-2a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1" />
+                    </svg>
+
+                    <div>
+                        <h2>Countdown</h2>
+                        <p>Tahun Baru!</p>
+                    </div>
+                </div>
+
+                <div class="countdown-time">
+
+                    <div class="countdown-box">
+                        <strong id="countdown-days">00</strong>
+                        <span>Hari</span>
+                    </div>
+
+                    <div class="countdown-box">
+                        <strong id="countdown-hours">00</strong>
+                        <span>Jam</span>
+                    </div>
+
+                    <div class="countdown-box">
+                        <strong id="countdown-minutes">00</strong>
+                        <span>Menit</span>
+                    </div>
+
+                    <div class="countdown-box">
+                        <strong id="countdown-seconds">00</strong>
+                        <span>Detik</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!--home ifno-->
+
+            <div class="home-info">
+
+                <div class="info-card">
+                    <h2>Siswa</h2>
+                    <p>Daftar siswa kelas VI.</p>
+                    <a href="#siswa">Lihat Siswa</a>
+
+                </div>
+
+                <div class="info-card">
+                    <h2>Jadwal</h2>
+                    <p>Lihat jadwal pelajaran setiap hari.</p>
+                    <a href="#jadwal">Lihat Jadwal</a>
+                </div>
+
+                <div class="info-card">
+                    <h2>Tugas</h2>
+                    <p>Lihat tugas yang diberikan guru.</p>
+                    <a href="#tugas">Lihat Tugas</a>
+                </div>
+
+                <div class="info-card">
+                    <h2>Pengumuman</h2>
+                    <p>Lihat informasi terbaru dari kelas.</p>
+                    <a href="#pengumuman">Lihat Pengumuman</a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- JADWAL -->
+        <section id="jadwal">
+
+            <h2>Jadwal Pelajaran</h2>
+
+            <div class="jadwal-container">
+
+                <div class="senin">
+                    <h2>Senin</h2>
+                    <p>
+                        IPAS<br>
+                        Pancasila
+                    </p>
+                </div>
+
+                <div class="selasa">
+                    <h2>Selasa</h2>
+                    <p>
+                        PABP<br>
+                        Bhs. Indonesia<br>
+                        IPAS<br>
+                        Litnum
+                    </p>
+                </div>
+
+                <div class="rabu">
+                    <h2>Rabu</h2>
+                    <p>
+                        Matematika<br>
+                        Seni Budaya<br>
+                        Mulok
+                    </p>
+                </div>
+
+                <div class="kamis">
+                    <h2>Kamis</h2>
+                    <p>
+                        Bhs. Indonesia<br>
+                        IPAS<br>
+                        Matematika
+                    </p>
+                </div>
+
+                <div class="jumat">
+                    <h2>Jumat</h2>
+                    <p>
+                        Pembiasaan<br>
+                        PJOK<br>
+                        Kokurikuler
+                    </p>
+                </div>
+
+                <div class="sabtu">
+                    <h2>Sabtu</h2>
+                    <p>
+                        Litnum<br>
+                        Bhs. Inggris<br>
+                        Bhs. Jawa ; Sunda<br>
+                        Kokurikuler
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SISWA -->
+        <section id="siswa">
+
+            <h2>Daftar Siswa</h2>
+
+            <div class="siswa">
+
+                <div class="fadil">
+                    <h2>Abid Fadil Abyan</h2>
+                    <button id="buka-modal-fadil">Info lanjutan</button>
+                </div>
+
+                <div class="adzkia">
+                    <h2>Adzkia</h2>
+                    <button id="buka-modal-adzkia">Info lanjutan</button>
+                </div>
+
+                <div class="alifa">
+                    <h2>Alifa</h2>
+                    <button id="buka-modal-alifa">Info lanjutan</button>
+                </div>
+
+                <div class="allea">
+                    <h2>Allea Carisa Putri</h2>
+                    <button id="buka-modal-allea">Info lanjutan</button>
+                </div>
+
+                <div class="amora">
+                    <h2>Amora Siti Maryam</h2>
+                    <button id="buka-modal-amora">Info lanjutan</button>
+                </div>
+
+                <div class="avika">
+                    <h2>Avika Mutiara Ramadhani</h2>
+                    <button id="buka-modal-avika">Info lanjutan</button>
+                </div>
+
+                <div class="davina">
+                    <h2>Davina</h2>
+                    <button id="buka-modal-davina">Info lanjutan</button>
+                </div>
+
+                <div class="byan">
+                    <h2>Dzubyanul Arif Bililmi</h2>
+                    <button id="buka-modal-byan">Info lanjutan</button>
+                </div>
+
+                <div class="kaila">
+                    <h2>Kaila</h2>
+                    <button id="buka-modal-kaila">Info lanjutan</button>
+                </div>
+
+                <div class="alif">
+                    <h2>Muhammad Alif Syaputri</h2>
+                    <button id="buka-modal-alif">Info lanjutan</button>
+                </div>
+
+                <div class="agis">
+                    <h2>Naurilidiana Agista Rizky</h2>
+                    <button id="buka-modal-agis">Info lanjutan</button>
+                </div>
+
+                <div class="sckar">
+                    <h2>Sckar</h2>
+                    <button id="buka-modal-sckar">Info lanjutan</button>
+                </div>
+
+                <div class="hani">
+                    <h2>Hani</h2>
+                    <button id="buka-modal-hani">Info lanjutan</button>
+                </div>
+
+                <div class="wingka">
+                    <h2>wingka</h2>
+                    <button id="buka-modal-wingka">Info lanjutan</button>
+                </div>
+
+                <div class="zahran">
+                    <h2>Zahran Al Saidan</h2>
+                    <button id="buka-modal-zahran">Info lanjutan</button>
+                </div>
+
+                <div class="adibah">
+                    <h2>Adibah</h2>
+                    <button id="buka-modal-adibah">Info lanjutan</button>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!--MODAL-->
+
+        <div class="modal" id="modal-fadil">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-fadil">X</button>
+
+                <h2>Fadil Abid Abyan</h2>
+
+                <p>Nama Panjang: Abid Fadil Abyan</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-adzkia">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-adzkia">X</button>
+
+                <h2>Adzkia</h2>
+
+                <p>Nama Panjang: -</p>
+                <p>Jabatan: Murid biasa</p>
+                <p>Hobi: Voli</p>
+                <p>Kata-Kata: "bngke"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-alifa">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-alifa">X</button>
+
+                <h2>Alifa</h2>
+
+                <p>Nama Panjang: </p>
+                <p>Jabatan: Murid biasa</p>
+                <p>Hobi: Voli</p>
+                <p>Kata-Kata: "anjay"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-allea">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-allea">X</button>
+
+                <h2>Allea</h2>
+
+                <p>Nama Panjang: </p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-amora">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-amora">X</button>
+
+                <h2>Amora</h2>
+
+                <p>Nama Panjang: Amora Siti Maryam</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-avika">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-avika">X</button>
+
+                <h2>Avika</h2>
+
+                <p>Nama Panjang: Avika Mutiara Ramadhani</p>
+                <p>Jabatan: Bendahara 1</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-davina">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-davina">X</button>
+
+                <h2>Davina</h2>
+
+                <p>Nama Panjang: </p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-byan">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-byan">X</button>
+
+                <h2>Dzubyanul Arif bililmi</h2>
+
+                <p>Nama Panjang: Dzubyanul Arif Bililmi</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-kaila">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-kaila">X</button>
+
+                <h2>Kaila</h2>
+
+                <p>Nama Panjang: -</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-alif">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-alif">X</button>
+
+                <h2>Muhammad Alif Syaputri</h2>
+
+                <p>Nama Panjang: Muhammad Alif Syaputra</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "Dipuji tidak terbang, dihina tiap hari bang"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-agis">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-agis">X</button>
+
+                <h2>Naurilidiana Agista Rizky</h2>
+
+                <p>Nama Panjang: Naurilidiana Agista Rizky</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-sckar">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-sckar">X</button>
+
+                <h2>Sckar</h2>
+
+                <p>Nama Panjang: </p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-hani">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-hani">X</button>
+
+                <h2>Hani</h2>
+
+                <p>Nama Panjang: -</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-wingka">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-wingka">X</button>
+
+                <h2>wingka</h2>
+
+                <p>Nama Panjang: -</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-zahran">
+            <div class="modal-content">
+                <button class="modal-close" id="tutup-modal-zahran">X</button>
+
+                <h2>Zahran Al Saidan</h2>
+
+                <p>Nama Panjang: Zahran Al Saidan</p>
+                <p>Jabatan: Wakil Ketua Kelas</p>
+                <p>Hobi: Engginering</p>
+                <p>Kata-Kata: blyat</p>
+            </div>
+        </div>
+
+        <div class="modal" id="modal-adibah">
+            <div class="modal-content">
+
+                <button class="modal-close" id="tutup-modal-adibah">X</button>
+
+                <h2>Adibah</h2>
+
+                <p>Nama Panjang: -</p>
+                <p>Jabatan: -</p>
+                <p>Hobi: -</p>
+                <p>Kata-Kata: "-"</p>
+            </div>
+        </div>
+
+        <!--Statistik-->
+        <section class="statistik-section" id="statistik-section">
+            <h2>Statistik</h2>
+
+            <p>Lihatlah Statistik kelas kami agar kalian mengetahui statistik kelas kami!</p>
+
+            <div class="statistik-grid" id="statistik-grid">
+                <div class="statistik-card" id="statistik-card-siswa">
+                    <h3>Total Siswa</h3>
+                    <p>16</p>
+                    <button class="button-statistik" id="button--siswa">Detail Siswa</button>
+                </div>
+
+                <div class="statistik-card" id="statistik-card-prestasi">
+                    <h3>Total Prestasi</h3>
+                    <p>-</p>
+                    <button class="button-statistik" id="button-prestasi">Detail Prestasi</button>
+                </div>
+
+                <div class="statistik-card" id="statistik-card-tugas">
+                    <h3>Total tugas</h3>
+                    <p>-</p>
+                    <button class="button-statistik" id="button-tugas">Detail Tugas</button>
+                </div>
+
+                <div class="statistik-card" id="statistik-card-kegiatan">
+                    <h3>Total Kegiatan</h3>
+                    <p>-</p>
+                    <button class="button-statistik" id="button-kegiatan">Detail Kegiatan</button>
+                </div>
+            </div>
+
+            <div class="data-lanjutan" id="data-lanjutan">
+            </div>
+        </section>
+
+        <!-- TUGAS -->
+        <section id="tugas">
+
+            <h2>Tugas</h2>
+
+            <div class="tugas-card">
+                <p>tidak ada Tugas!</p>
+                <button id="buka-modal-tugas1">Buka</button>
+            </div>
+
+        </section>
+
+        <div class="modaltugas" id="modaltugas1">
+            <div class="modal-content">
+                <p>Tidak Ada Tugas!</p>
+            </div>
+        </div>
+
+
+        <!-- PENGUMUMAN -->
+        <section id="pengumuman">
+
+            <h2>Pengumuman</h2>
+
+            <div class="pengumuman-card">
+                <p>Web Pause pembaruan dulu, Dev mw Ke luar kotaa</p>
+                <button id="bukamodalpengumuman1">Buka</button>
+            </div>
+
+        </section>
+
+        <Div class="modalpengumuman1" id="modalpengumuman1">
+            <div class="modal-content">
+                <p>Web Pause pembaruan dulu, Dev mw Ke luar kotaa</p>
+            </div>
+        </Div>
+
+
+        <!--Fun Games-->
+        <Section id="fun-games">
+            <h2>Fun games</h2>
+
+            <div class="random-picker">
+                <h2 id="judul-RP">Random Picker!</h2>
+                <button id="tombol-random">Pilih Siswa</button>
+                <h2 id="hasil-random">-</h2>
+            </div>
+        </Section>
+
+        <div class="bottom">
+            <p>Mentok!, Gausah scroll lagi!</p>
+        </div>
+</body>
+
+</html>
